@@ -12,23 +12,3 @@ var util = require('../lib/util.js');
 module.exports = function(req, res){
     res.render('home/page/index.tpl', index.getData());
 };
-
-// GET  /home/index
-module.exports.get = function(req, res) {
-
-};
-
-// POST /home/index
-module.exports.post = function (req, res) {
-    res.send('/home/index ,post');
-};
-
-// PUT /home/index
-module.exports.put = function (req, res) {
-
-};
-
-// DELETE /home/index
-module.exports.delete = function (req, res) {
-
-};
