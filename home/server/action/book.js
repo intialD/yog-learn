@@ -1,5 +1,9 @@
+
+var book = require('../model/book.js');
+
+
 module.exports = function(req, res){
-    res.send('book index');
+    res.render('home/page/book.tpl', book.getBookList())
 };
 
 module.exports.get = function(req, res, next){
